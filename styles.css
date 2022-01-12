@@ -15,27 +15,46 @@ html {
 	padding: 10px;
 }
 
+#whoami p {
+	text-indent: 20px;
+}
+
+#bio-item {
+	padding-bottom: 5px;
+}
+
+#bio-item {
+	padding-left: 3.4em;
+	text-indent: -3.4em;
+}
+
+span {
+	font-weight: bold;
+	margin-right: 1em;
+}
+
 article {
 	width: 640px;
 }
 
-div {
-	display: block;
-}
-
 h4 {
-	text-decoration: underline 4px rgb(82, 82, 82);
+	text-decoration: underline 4px #525252;
 	text-underline-offset: 6px;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:link {
-	color: #ffffff;
+	color: #00d3d3;
 }
 
 a:visited {
-	color: #ffcaca;
+	color: #00d3d3;
 }
 
 a:hover {
+	text-decoration: underline;
 	color: #ff69b4;
 }
