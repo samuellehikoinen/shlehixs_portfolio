@@ -57,7 +57,7 @@ html {
 	border-radius: 10px;
 	display: inline-block;
 	overflow: hidden;
-	opacity: 0.7;
+	opacity: 1;
 }
 
 .banner {
@@ -66,10 +66,10 @@ html {
 	object-position: -550px -530px;
 }
 
-.top-image:hover {
+/* .top-image:hover {
 	transition: 0.4s;
 	opacity: 1;
-}
+} */
 
 span {
 	font-weight: bold;
