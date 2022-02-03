@@ -58,18 +58,8 @@ html {
 	display: inline-block;
 	overflow: hidden;
 	opacity: 1;
+	background-color: #2b2a33;
 }
-
-.banner {
-	transform: scale(1.3);
-	object-fit: cover;
-	object-position: -550px -530px;
-}
-
-/* .top-image:hover {
-	transition: 0.4s;
-	opacity: 1;
-} */
 
 span {
 	font-weight: bold;
@@ -101,34 +91,44 @@ a:hover {
 	color: #ff69b4;
 }
 
+/* Social media buttons */
+
 .social-menu ul {
 	position: relative;
 	padding: 0;
 	margin: 0;
 	display: flex;
 }
+
 .social-menu ul li {
 	list-style: none;
 	margin: 0 10px;
 }
+
 .social-menu ul li .fa {
 	color: #000000;
 	font-size: 25px;
 	line-height: 50px;
 	transition: 0.5s;
 }
+
 .social-menu ul li .fa:hover {
 	color: #ffffff;
 }
+
+/* fa. class for salesforce logo */
 .social-menu ul li .fab {
 	color: #000000;
 	font-size: 25px;
 	line-height: 50px;
 	transition: 0.5s;
 }
+
+/* fa. class for salesforce logo */
 .social-menu ul li .fab:hover {
 	color: #ffffff;
 }
+
 .social-menu ul li a {
 	position: relative;
 	display: block;
@@ -141,21 +141,32 @@ a:hover {
 	transform: translate(0, 0px);
 	box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
+
 .social-menu ul li a:hover {
 	transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
+
+/* Linkedin background */
 .social-menu ul li:nth-child(1) a:hover {
 	background-color: #026eaa;
 }
+
+/* Github background */
 .social-menu ul li:nth-child(2) a:hover {
 	background-color: #1a1e22;
 }
+
+/* Instagram background */
 .social-menu ul li:nth-child(3) a:hover {
 	background-color: #aa30bd;
 }
+
+/* Steam background */
 .social-menu ul li:nth-child(4) a:hover {
 	background-color: #1b222a;
 }
+
+/* Trailhead background */
 .social-menu ul li:nth-child(5) a:hover {
 	background-color: #0092da;
 }
@@ -169,10 +180,8 @@ a:hover {
 		width: 460px;
 	}
 
-	.banner {
-		transform: scale(1.3);
-		object-fit: cover;
-		object-position: -610px -530px;
+	.social-menu ul li a:hover {
+		transform: none;
 	}
 }
 
@@ -185,9 +194,4 @@ a:hover {
 		width: 360px;
 	}
 
-	.banner {
-		transform: scale(1.3);
-		object-fit: cover;
-		object-position: -650px -530px;
-	}
 }
