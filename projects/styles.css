@@ -38,6 +38,7 @@ a:hover {
 #projects-area {
     width: 80%;
     margin: auto;
+    margin-top: 30px;
 }
 
 .container {
@@ -46,9 +47,10 @@ a:hover {
     grid-template-rows: 87% 13%;
     height: 100%;
     width: 100%;
-    border-width: 2px;
-    border-style: solid;
     border-radius: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
 .item-1 {
@@ -60,7 +62,7 @@ a:hover {
 img {
     height: 100%;
     width: 100%;
-    border-radius: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .item-2 {
