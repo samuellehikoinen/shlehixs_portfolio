@@ -96,3 +96,36 @@ img {
 .project {
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    #content {
+        width: 460px;
+    }
+
+    article {
+        width: 460px;
+    }
+
+    .item-2 p {
+        margin-top: 9px;
+        margin-bottom: 9px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #content {
+        width: 360px;
+    }
+
+    article {
+        width: 360px;
+    }
+
+    .item-2 p {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-size: 0.8rem;
+    }
+
+}
