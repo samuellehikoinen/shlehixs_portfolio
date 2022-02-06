@@ -41,6 +41,8 @@ a:hover {
     margin-top: 30px;
 }
 
+/* Project box contents */
+
 .container {
     display: grid;
     grid-template-columns: auto auto;
@@ -50,7 +52,6 @@ a:hover {
     border-radius: 10px;
     border: 2px solid white;
     box-sizing: border-box;
-    margin-bottom: 30px;
 }
 
 .item-1 {
@@ -89,4 +90,9 @@ img {
 
 .right-button {
     border-radius: 0px 0px 10px 0px;
+}
+
+/* Project */
+.project {
+    margin-bottom: 50px;
 }
