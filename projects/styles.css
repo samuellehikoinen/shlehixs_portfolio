@@ -1,0 +1,131 @@
+html {
+    background: #2b2a33;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+#content {
+    width: 640px;
+    margin: auto;
+}
+
+#container {
+    padding: 10px;
+}
+
+article {
+    width: 640px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #00d3d3;
+}
+
+a:visited {
+    color: #00d3d3;
+}
+
+a:hover {
+    color: #ff69b4;
+}
+
+#projects-area {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* Project box contents */
+
+.project {
+    margin-bottom: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 87% 13%;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* border: 2px solid red; */
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.item-2 {
+    /* border: 2px solid green; */
+    background-color: #42414d;
+}
+
+.item-2:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.item-2 p {
+    color: white;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+}
+
+.left-button {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.right-button {
+    border-radius: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    #content {
+        width: 460px;
+    }
+
+    article {
+        width: 460px;
+    }
+
+    .item-2 p {
+        margin-top: 9px;
+        margin-bottom: 9px;
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #content {
+        width: 360px;
+    }
+
+    article {
+        width: 360px;
+    }
+
+    .item-2 p {
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-size: 0.8rem;
+    }
+
+}
