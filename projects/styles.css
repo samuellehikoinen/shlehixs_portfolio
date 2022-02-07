@@ -41,7 +41,6 @@ a:hover {
 }
 
 #projects-area {
-    width: 80%;
     margin: auto;
     margin-top: 30px;
 }
@@ -88,9 +87,9 @@ img {
 .item-2 p {
     color: white;
     text-align: center;
-    margin-top: 14px;
-    margin-bottom: 14px;
-    font-size: 1.2rem;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    font-size: 1.3rem;
 }
 
 .left-button {
@@ -103,17 +102,17 @@ img {
 
 @media screen and (max-width: 768px) {
     #content {
-        width: 460px;
+        width: 450px;
     }
 
     article {
-        width: 460px;
+        width: 450px;
     }
 
     .item-2 p {
-        margin-top: 9px;
-        margin-bottom: 9px;
-        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
     }
 
 }
@@ -128,9 +127,9 @@ img {
     }
 
     .item-2 p {
-        margin-top: 7px;
-        margin-bottom: 7px;
-        font-size: 0.8rem;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 1rem;
     }
 
 }
