@@ -54,6 +54,7 @@ html {
 	height: 200px;
 	border-width: 2px;
 	border-style: solid;
+	border-color: #42414d;
 	border-radius: 10px;
 	display: inline-block;
 	overflow: hidden;
@@ -89,6 +90,36 @@ a:visited {
 
 a:hover {
 	color: #ff69b4;
+}
+
+/* Navbar */
+
+#head-nav {
+	background-color: #42414d;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+#head-nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	float: right;
+}
+
+#head-nav a.active {
+	background-color: #00d3d3;
+	color: black;
+}
+
+#head-nav a:hover {
+	background-color: #f2f2f2;
+	color: black;
+	transition: 0.5s;
 }
 
 /* Social media buttons */
