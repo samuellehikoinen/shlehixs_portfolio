@@ -15,6 +15,10 @@ html {
     padding: 10px;
 }
 
+#top-container {
+    padding: 10px;
+}
+
 #footer {
     padding-top: 20px;
     text-align: center;
@@ -40,9 +44,53 @@ a:hover {
     color: #ff69b4;
 }
 
+/* Navbar */
+
+#head-nav {
+    background-color: #42414d;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#head-nav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+}
+
+#head-nav a.active {
+    background-color: #00d3d3;
+    color: black;
+}
+
+#head-nav a:hover:not(.terminal) {
+    background-color: #f2f2f2;
+    color: black;
+    transition: 0.5s;
+}
+
 #projects-area {
     margin: auto;
     margin-top: 30px;
+}
+
+/* Navbar left */
+
+#head-nav a.terminal {
+    float: left;
+}
+
+#head-nav a.terminal:hover {
+    cursor: default;
+}
+
+i.sudo {
+    font-style: normal;
+    color: #4AF626;
 }
 
 /* Project box contents */
@@ -113,6 +161,10 @@ img {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1.2rem;
+    }
+
+    .terminal {
+        display: none;
     }
 
 }

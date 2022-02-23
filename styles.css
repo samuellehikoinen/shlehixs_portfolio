@@ -116,10 +116,25 @@ a:hover {
 	color: black;
 }
 
-#head-nav a:hover {
+#head-nav a:hover:not(.terminal) {
 	background-color: #f2f2f2;
 	color: black;
 	transition: 0.5s;
+}
+
+/* Navbar left */
+
+#head-nav a.terminal {
+	float: left;
+}
+
+#head-nav a.terminal:hover {
+	cursor: default;
+}
+
+i.sudo {
+	font-style: normal;
+	color: #4AF626;
 }
 
 /* Social media buttons */
@@ -209,6 +224,10 @@ a:hover {
 
 	article {
 		width: 460px;
+	}
+
+	.terminal {
+		display: none;
 	}
 
 	.social-menu ul li a:hover {
