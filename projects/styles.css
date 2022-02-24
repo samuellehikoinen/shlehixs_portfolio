@@ -94,61 +94,6 @@ i.sudo {
     color: #4AF626;
 }
 
-/* Project box contents */
-
-.project {
-    margin-bottom: 50px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 87% 13%;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-.item-1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    /* border: 2px solid red; */
-}
-
-img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.item-2 {
-    /* border: 2px solid green; */
-    background-color: #42414d;
-}
-
-.item-2:hover {
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-.item-2 p {
-    color: white;
-    text-align: center;
-    margin-top: 19px;
-    margin-bottom: 19px;
-    font-size: 1.3rem;
-}
-
-.left-button {
-    border-radius: 0px 0px 0px 10px;
-}
-
-.right-button {
-    border-radius: 0px 0px 10px 0px;
-}
-
 /* Carousel */
 
 .carousel {
@@ -162,6 +107,11 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #42414d;
+    border-radius: 10px;
 }
 
 .carousel__track-container {
@@ -199,7 +149,6 @@ img {
 .carousel__button--left {
     left: -36px;
 }
-
 
 .carousel__button--right {
     right: -36px;
@@ -249,6 +198,20 @@ img {
         display: none;
     }
 
+    .carousel {
+        height: 287px;
+    }
+
+    .carousel__button--left {
+        left: 0;
+        z-index: 99;
+    }
+
+    .carousel__button--right {
+        right: 0;
+        z-index: 99;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -264,6 +227,10 @@ img {
         margin-top: 8px;
         margin-bottom: 8px;
         font-size: 1rem;
+    }
+
+    .carousel {
+        height: 227px;
     }
 
 }
