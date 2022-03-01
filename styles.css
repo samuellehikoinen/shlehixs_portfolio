@@ -137,6 +137,42 @@ i.sudo {
 	color: #4AF626;
 }
 
+/* Mobile navigation menu */
+
+#mobile-nav {
+	background-color: #42414d;
+	border-radius: 10px;
+	display: none;
+	flex-direction: column;
+	width: auto;
+	margin-bottom: 20px;
+	position: fixed;
+	right: 20px;
+}
+
+#mobile-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#mobile-nav i {
+	font-size: 2em;
+	padding: 10px;
+}
+
+#mobile-nav nav {
+	display: none;
+}
+
+#mobile-nav #hamburger {
+	cursor: pointer;
+}
+
+#hamburger {
+	border-radius: 10px;
+}
+
 /* Social media buttons */
 
 .social-menu ul {
@@ -232,6 +268,14 @@ i.sudo {
 
 	.social-menu ul li a:hover {
 		transform: none;
+	}
+
+	#mobile-nav {
+		display: inline-flex;
+	}
+
+	#head-nav {
+		display: none;
 	}
 }
 
