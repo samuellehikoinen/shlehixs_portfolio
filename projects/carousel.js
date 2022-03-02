@@ -30,8 +30,8 @@ const updateDots = (currentDot, targetDot) => {
 // Right button
 nextButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
-    console.dir(currentSlide.parentElement.childElementCount);
-    console.dir(currentSlide.nextElementSibling == null ? true : false);
+    // console.dir(currentSlide.parentElement.childElementCount);
+    // console.dir(currentSlide.nextElementSibling == null ? true : false);
     const targetSlide = currentSlide.nextElementSibling == null ? slides[0] : currentSlide.nextElementSibling;
     const currentDot = dotsNav.querySelector('.current-slide');
     const targetDot = currentDot.nextElementSibling == null ? dots[0] : currentDot.nextElementSibling;

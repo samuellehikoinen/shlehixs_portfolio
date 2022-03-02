@@ -88,6 +88,47 @@ i.sudo {
     color: #4AF626;
 }
 
+/* Mobile navigation menu */
+
+#mobile-nav {
+    background-color: #42414d;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 20px;
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+#mobile-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mobile-nav i {
+    font-size: 2em;
+    padding: 10px;
+}
+
+#mobile-nav nav {
+    display: none;
+}
+
+#mobile-nav #hamburger {
+    cursor: pointer;
+}
+
+#hamburger {
+    border-radius: 10px;
+}
+
+.mobile-terminal {
+    display: none;
+}
+
 /* Carousel */
 
 .carousel {
@@ -188,10 +229,6 @@ i.sudo {
         font-size: 1.2rem;
     }
 
-    .terminal {
-        display: none;
-    }
-
     .carousel {
         height: 287px;
     }
@@ -204,6 +241,22 @@ i.sudo {
     .carousel__button--right {
         right: 0;
         z-index: 99;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    #mobile-nav {
+        display: inline-flex;
+    }
+
+    #head-nav {
+        display: none;
+    }
+
+    .mobile-terminal {
+        display: block;
     }
 
 }
