@@ -213,6 +213,16 @@ i.sudo {
     background: rgba(255, 255, 255, 0.7);
 }
 
+/* Project details */
+
+.project-description {
+    margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
 
 @media screen and (max-width: 768px) {
     #content {

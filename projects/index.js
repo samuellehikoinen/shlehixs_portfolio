@@ -52,3 +52,11 @@ $(document).ready(function () {
             }
         });
 });
+
+/**
+ * Click handler for projects
+ * @param {project} project 
+ */
+function clickProject(project) {
+    console.dir(project);
+}
