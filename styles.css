@@ -148,6 +148,7 @@ i.sudo {
 	margin-bottom: 20px;
 	position: fixed;
 	right: 20px;
+	z-index: 100;
 }
 
 #mobile-nav ul {
@@ -171,6 +172,10 @@ i.sudo {
 
 #hamburger {
 	border-radius: 10px;
+}
+
+.mobile-terminal {
+	display: none;
 }
 
 /* Social media buttons */
@@ -262,12 +267,12 @@ i.sudo {
 		width: 460px;
 	}
 
-	.terminal {
-		display: none;
-	}
-
 	.social-menu ul li a:hover {
 		transform: none;
+	}
+
+	.mobile-menu {
+		display: flex;
 	}
 
 	#mobile-nav {
@@ -276,6 +281,10 @@ i.sudo {
 
 	#head-nav {
 		display: none;
+	}
+
+	.mobile-terminal {
+		display: block;
 	}
 }
 
